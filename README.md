@@ -1,6 +1,6 @@
 # Nyan Cat
 
-A demo for #https://twitter.com/hashtag/FlutterCounterChallenge2020?src=hashtag_click
+A demo for https://twitter.com/hashtag/FlutterCounterChallenge2020?src=hashtag_click
 ## Demo
 
 ![gif with no sound](https://github.com/agondev/flutter_nyancat/blob/master/demo/ex.gif)
