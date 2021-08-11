@@ -51,7 +51,7 @@ class _MyAppState extends State<MyApp> {
         .setUrl('https://cristurm.github.io/nyan-cat/audio/nyan-cat.ogg');
     player.setVolume(0);
     // await player.setAsset('assets/nyancat.mp3');
-    List<ui.Image> images = List<ui.Image>();
+    var images = <ui.Image>[];
     for (var i = 0; i < 7; i++) {
       images.add((await (await ui.instantiateImageCodec(
         (await rootBundle.load('assets/' + i.toString() + '.gif'))
@@ -111,12 +111,12 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
   int _nyanSpeed = Random().nextInt(15000) + 5000;
 
   List<Offset> _translationOffset;
-  List<Star> _starList = List<Star>();
-  List<Widget> _cat = List<Widget>();
+  var _starList = <Star>[];
+  var _cat = <Widget>[];
 
   void setStars() {
     _starList.clear();
-    _starList = List<Star>();
+    _starList = <Star>[];
     _starList.addAll(List.generate(
       widget.luckySeed,
       (index) => Star(
