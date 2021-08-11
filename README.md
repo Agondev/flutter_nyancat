@@ -3,6 +3,8 @@
 A demo for https://twitter.com/hashtag/FlutterCounterChallenge2020?src=hashtag_click
 ## Demo
 
+Live demo: https://agondev.github.io/flutter_nyancat/
+
 ![gif with no sound](https://github.com/agondev/flutter_nyancat/blob/master/demo/ex.gif)
 
 For demo with sound: https://twitter.com/noga_dev/status/1341815264577466369
