@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
-project(fcc20v2 LANGUAGES CXX)
+project(flutter_nyancat LANGUAGES CXX)
 
-set(BINARY_NAME "fcc20v2")
+set(BINARY_NAME "flutter_nyancat")
 
 cmake_policy(SET CMP0063 NEW)
 
